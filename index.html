@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz app</title>
+</head>
+<body>
+
+    <div class="main">
+        <button id="reload">Reiniciar</button> 
+        <div class="main__central">    
+            <form action="">
+                <h3 id="questao">Questão</h3>
+                <div class="option">
+                    <input class="point" type="radio" name="cor"  value="a">
+                    <label id="answer_a" for="a">azul</label>
+                </div>
+               
+                <div class="option">
+                    <input class="point" type="radio" name="cor"  value="b">
+                    <label id="answer_b" for="b">vermelho</label>
+                </div>
+                
+                <div class="option">
+                    <input class="point" type="radio" name="cor"  value="c">
+                    <label id="answer_c" for="c">amarelo</label>
+                </div>
+    
+                <div class="option">
+                    <input class="point" type="radio" name="cor"  value="d">
+                    <label id="answer_d" for="d">verde</label>
+                </div>
+    
+            </form>
+        </div>
+
+        <div class="enviar" >
+            <button id="send">Enviar</button> 
+        </div>
+        <div class="enviar" >
+            <button id="add">Adicionar questões</button> 
+        </div>
+        
+    </div>
+    
+    <div class="new-question" style="display: none;">
+        
+        <div class="new-question__ask">
+            <label for="question">1</label> 
+            <input type="text" name="question" id="question-ask" placeholder="Digite aqui o enunciado">
+        </div>
+
+        <div class="new-question__option">
+            <label for="question">a</label> 
+            <input type="text" name="question" id="question-a">
+        </div>
+        <div class="new-question__option">
+            <label for="question">b</label> 
+            <input type="text" name="question" id="question-b">
+        </div>
+        <div class="new-question__option">
+            <label for="question">c</label> 
+            <input type="text" name="question" id="question-c">
+        </div>
+        <div class="new-question__option">
+            <label for="question">d</label> 
+            <input type="text" name="question" id="question-d">
+        </div>
+
+        <div class="new-question__option">
+            <label for="question">Resposta correta</label><br> 
+            <input type="text" name="question" id="question-correct" placeholder="escreva 'a, b, c ou d'">
+        </div>
+
+        <div class="enviar" >
+            <button id="add-question">Adicionar</button> 
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

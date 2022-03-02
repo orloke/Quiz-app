@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #9294A4;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width:2000px;
+    min-height: 500px;    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 20px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 40%;
+    height: 70%;
+    /* background-color: black; */
+}
+
+.main__central{
+    /* background-color: rgb(26, 206, 206); */
+    height:100%;
+    width: 100%; 
+    padding: 10%;
+}
+
+
+.main p{
+    color: #8a8c9b;
+    font-size: 12px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:80%;
+    width: 80%;
+    /* background-color: rgb(255, 200, 127); */
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#send{
+    background-color: blue;
+    width: 100%;
+    display: block;
+    /* border-radius: 0px 0px 20px 20px; */
+    color: white;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    
+}
+
+#reload{
+    background-color: red;
+    /* border-radius: 0px 0px 20px 20px; */
+    color: white;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+#add{
+    width: 100%;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.new-question{
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 20px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    width: 40%;
+    height: 70%;
+    justify-content: space-between;
+}
+
+.new-question__ask{
+    margin-top: 20px;
+    text-align: left;
+    width: 98%;
+
+}
+
+#question-ask{
+    width: 96%;
+}
+
+.new-question__option{
+    text-align: left;
+}
+
+#add-question{
+    margin-top: 10%;
+    width: 100%;
+    background-color: rgb(124, 223, 11);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+
+@media screen and (max-width:500px) {
+    form{
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 60%;
+        width: 100%;
+        justify-content: space-between;
+        gap: 10%;
+    }
+
+    .main{
+        width: 70%;
+        height: 40%;
+    }
+}
