@@ -1,27 +1,27 @@
 const quizData = [
     {
-        question: 'What is your name?',
-        a: 'junior',
-        b: 'dering',
-        c: 'demétrio',
-        d: 'lima',
-        correct: 'a'
+        question: 'Quem ganhou a copa de 2014?',
+        a: 'Brasil',
+        b: 'Alemanha',
+        c: 'Argentina',
+        d: 'França',
+        correct: 'b'
     },
     {
-        question: 'How old are you?',
-        a: '30',
-        b: '27',
-        c: '26',
-        d: '29',
-        correct: 'c'
-    },
-    {
-        question: 'What name your mother?',
-        a: 'Clara',
-        b: 'Fernanda',
-        c: 'Maria',
-        d: 'Regina',
+        question: 'Qual a capital de Goiás?',
+        a: 'Brasília',
+        b: 'Caldas Novas',
+        c: 'Palmas',
+        d: 'Goiânia',
         correct: 'd'
+    },
+    {
+        question: 'Qual o resultado da expressão 8*(2+2)/2?',
+        a: '14',
+        b: '15',
+        c: '16',
+        d: '8',
+        correct: 'c'
     }
 ]
 
